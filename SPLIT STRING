@@ -1,0 +1,11 @@
+• s.split(sep=None, maxsplit=-1): tách chuỗi s thành danh sách các
+chuỗi con
+• Sep: ký tự dùng để tách chuỗi, mặc định là None (whitespace)
+• Maxsplit: số lần tách tối đa, mặc định là -1 (không giới hạns)
+//
+date="20/11/2011"
+items_1=date.split(sep='/')
+print(items_1)-->['20', '11', '2011']
+items_2=date.split(sep='/',maxsplit=0 )
+print(items_2)-->['20', '11/2011']
+//

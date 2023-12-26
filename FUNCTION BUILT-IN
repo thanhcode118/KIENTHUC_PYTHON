@@ -1,0 +1,4 @@
+• ord(ch): trả về mã ASCII của ký tự ch.
+• chr(code): trả về ký tương ứng với code
+//print(ord('A')) --> 65
+//print(chr(98)) --> 'b'

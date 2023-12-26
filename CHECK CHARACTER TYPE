@@ -1,0 +1,22 @@
+• s.isalnum(): trả về True nếu s khác rỗng và tất cả các ký tự của nó là
+chữ cái hoặc chữ số
+• s.isalpha(): trả về True nếu s khác rỗng và tất cả các ký tự của nó là
+chữ cái
+• s.isdigit(): trả về True nếu s khác rỗng và tất cả các ký tự của nó là
+chữ số
+//
+s="python3"
+print(s.isalnum())--> True
+s="abc"
+print(s.isalpha())--> True
+s="2019"
+print(s.isdigit())--> True
+//
+• s.islower(): trả về True nếu s khác rỗng và tất cả các ký tự của nó
+đều là chữ thường
+• s.isupper(): trả về True nếu s khác rỗng và tất cả các ký tự của nó
+đều là chữ in hoa
+//
+s="Hello"
+print(s.islower())--> false
+print(s.isupper())--> false

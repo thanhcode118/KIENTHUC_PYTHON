@@ -1,0 +1,14 @@
+• s.lower(): trả về bản sao của chuỗi ở dạng chữ thường
+• s.upper(): trả về bản sao của chuỗi ở dạng chữ in hoa
+• s.capitalize(): trả về bản sao của chuỗi với ký tự đầu tiên được chuyển
+sang in hoa
+• s.title(): trả về bản sao của chuỗi với ký tự đầu tiên của mỗi từ được
+chuyển sang in hoa
+• s.swapcase(): trả về bản sao của chuỗi với ký tự in thường chuyển sang
+in hoa và ngược lại
+//s1="Welcome to Programming"
+//print(s1.upper())
+• s.strip([<char>]): cắt bỏ những ký tự char ở đầu và cuối của
+chuỗi
+//s="**/Welcome to Programing/**"
+//print(s.strip("*"))-->/Welcome to Programing/
